@@ -15,4 +15,12 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ir.devapp.mahbar.MahBar
+        android:id="@+id/mahbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:label_text="Majid ahmadi"
+        app:max_value="100"
+        app:value="22" />
+
 </android.support.constraint.ConstraintLayout>

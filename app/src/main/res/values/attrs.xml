@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MahBar">
+        <attr name="max_value" format="integer" />
+        <attr name="min_value" format="integer" />
+        <attr name="value" format="integer" />
+
+        <attr name="bar_height" format="dimension" />
+        <attr name="circle_radius" format="dimension" />
+        <attr name="circle_text_size" format="dimension" />
+        <attr name="space_after_bar" format="dimension" />
+        <attr name="max_value_text_size" format="dimension" />
+        <attr name="max_value_text_color" format="dimension" />
+        <attr name="label_text_size" format="dimension" />
+        <attr name="label_text_color" format="color" />
+        <attr name="circle_text_color" format="color" />
+        <attr name="base_color" format="color" />
+        <attr name="fill_color" format="color" />
+        <attr name="label_text" format="string" />
+    </declare-styleable>
+</resources>
